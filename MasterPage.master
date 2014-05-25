@@ -1,0 +1,48 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_ibv50lz0" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+    body { background-color:Teal; }
+    #main { width:1024px; height:768px; margin:0 auto; }
+    #header { height:110px; width:inherit; background-color:Silver; }
+    h2 { position:relative; top:25px; left:40px; }
+    h4 { position:relative; top:5px; left:80px; }
+    ul { position:relative; bottom:45px; left:400px; }
+    ul li { display:inline-block; padding:5px; border:1px solid black; width:80px; text-align:center; }
+    a { text-decoration:none; }
+    #content { height:548px; width:inherit; background-color:White; }
+    #footer { height:110px; width:inherit; background-color:Silver; }
+    p { margin:0; position:relative; top:45px; left:40px; }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="main">
+    <div id="header">
+    <h2 style="color:#00b3ef; font-family:comic sans MS;">Online Air <span style="color:#021c61">Reservation</span></h2>
+    <h4 style="color:#00b3ef; font-family:comic sans MS;">Travel with <span style="color:#021c61">Funn..</span></h4>
+        <ul>
+            <li><a href="Default.aspx">Home</a></li>
+            <li><a href="Register.aspx">Register</a></li>
+            <li><a href="About_Us.aspx">About_Us</a></li>
+            <li><a href="Contact_Us.aspx">Contact_Us</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="footer">
+        <p>
+            Copyright &copy; 2014. All Rights Reserver. Developed by <a href="http://www.webspec-tech.com">
+                WebSpec Technologies</a></p>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

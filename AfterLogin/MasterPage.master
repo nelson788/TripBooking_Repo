@@ -1,4 +1,4 @@
-﻿<%@ master language="C#" autoeventwireup="true" inherits="AfterLogin_MasterPage, App_Web_fgaarjsi" %>
+﻿<%@ master language="C#" autoeventwireup="true" inherits="AfterLogin_MasterPage, App_Web_ib2v00zt" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 

@@ -1,4 +1,4 @@
-﻿<%@ page title="" language="C#" masterpagefile="~/AfterLogin/MasterPage.master" autoeventwireup="true" inherits="AfterLogin_Profile, App_Web_afeq4iwa" %>
+﻿<%@ page title="" language="C#" masterpagefile="~/AfterLogin/MasterPage.master" autoeventwireup="true" inherits="AfterLogin_Profile, App_Web_soznkc4e" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 <style type="text/css">
